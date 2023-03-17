@@ -1,0 +1,344 @@
+
+		
+		
+		*{
+			padding: 0%;
+			margin: 0%;
+		}
+		
+		
+		.text{
+              display: inline;
+              margin-left: 45px;
+              font-size: 20px;
+              position: relative;
+			  top: 8px;
+			  color: rgb(209, 230, 246);
+			  border: none;
+			  
+			  
+
+		}
+		
+
+		.sea1{
+
+			position: absolute;
+			margin-left: 773px ;
+		    color: black;
+			bottom: 1px;
+			text-align: justify;
+
+		}
+		
+		.e{
+			text-decoration: none;
+			color: rgb(212, 229, 252);
+		}
+
+		
+		.main{
+			
+			background-color: rgb(41, 41, 72);
+			width: 100%;
+			height: 60px;
+			position: fixed;
+			top: 0;
+			z-index: 999;
+			border: none;
+			border-radius: 5px;
+			
+
+		}
+		.e{
+			font-size: 40px;
+			position: relative;
+			/*left: 10px;*/
+
+
+		}
+		.se{
+			width: 375px;
+			height: 30px;
+			position: relative;
+             padding-left: 12px;
+		    bottom: 6px;
+		  /* left: 100px;*/
+		   border: solid;
+
+		}
+		.lo{
+			width: 125px;
+			height: 35px;
+			font-size: 25px;
+			position: relative;
+			bottom: 2px;
+			/*margin-left: 100px;*/
+			border: solid;
+        }
+        .a1{
+        	position: relative;
+        	/*left: 90px;*/
+        	bottom: 10px;
+			cursor: pointer;
+
+
+        }
+		.main-brand{
+			top: 75px;
+			position: absolute;
+			
+			width: 100%;
+		     height: 45px;
+		
+			
+			
+		}
+		.brand{
+
+			display: inline;
+	        font-size: 20px;
+			position: relative;
+			padding-left: 42px;
+			
+	}
+		.brand :hover{
+			background-color: rgb(20, 101, 117);
+			color: white;
+			
+			
+		}
+		
+		.brand2{
+			text-decoration: none;
+			color: black;
+		
+			padding-left: 40px;
+			padding-right: 40px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			background-color: white;
+			
+			
+		}
+        .maindrop{
+        	position: absolute;
+        	background-color: lightpink;
+        	margin-left: 830px;
+		
+        	width: 170px;
+        		display: none;
+        	
+
+        	
+
+        }
+        .drop{
+        	padding: 10px;
+        	border: 2px solid white;
+
+
+
+
+        }
+        .dropnone{
+        	text-decoration: none;
+        	border: none;
+
+
+        }
+        .text:hover .maindrop{
+        	display: block;
+
+        }
+        .maindrop1{
+        	position: absolute;
+        	background-color: lightpink;
+        	margin-left: 1200px;
+        	width: 200px;
+        	display: none;
+ 
+        }
+		
+        .text:hover .maindrop1{
+        	display: block;
+        }
+		.se:hover{
+			transform: none;
+		}
+        
+	
+	.bod{
+        
+		height: 450px;
+		width: 250px;
+		border: non  e;
+		margin: 50px 50px;
+		float: left;
+		position: relative;
+		top: 110px;
+		left: 50px;
+		box-shadow: 8px 8px 12px ghostwhite;
+	}
+     /* a:hover{
+		display: inline-block;
+		transform: scalex(1.1 );
+		
+     } */
+	
+     #flip{
+		width: 250px;
+		height: 250px;
+	 }
+	
+		#flip:hover{
+		opacity: 0.5;
+	}
+	.bod:hover{
+		display: inline-block;
+		transform: scale(1.1 , 1.1);
+
+	 }
+
+
+
+    #overflow{
+    	text-decoration: none;
+
+	
+    }
+    .price{
+    	display: inline;
+
+    }
+    .buy{
+    	height: 25px;
+		width: 99%;
+		position: absolute;
+    
+		bottom: 40px;
+	    font-family: Verdana, Arial, Tahoma, Serif;
+    	background-color: green;
+    	color: white;
+		border: none;
+    }
+	.cart2{
+		text-decoration: none;
+    	color: white;
+    	font-family: sans-serif;
+
+	}
+	.cart1{
+    	height: 25px;
+		width: 99%;
+		position: absolute;
+        bottom: 5px;
+	    background-color: rgb(122, 53, 3);
+		border: none;
+    
+	}
+	.buy1{
+    	text-decoration: none;
+    	color: white;
+    	font-family:Verdana, Arial, Tahoma, Serif ;
+
+    }
+
+    
+    .div2{
+    	margin: 3px 3px;
+
+    }
+    .del{
+
+    	color: #808080;
+
+    }
+    #off{
+    	color: #A52A2A;
+
+    }
+	
+	
+    .com{
+    	width: 100%;
+    	height: 400px;
+    	color: red;
+    	font-family: sans-serif;
+    	font-size: 80px;
+    	text-align: center;
+    	font-style: italic;
+    	bottom: 70px;
+    	border-radius: 30px;
+		position: relative;
+		top: 130px;
+		 
+
+    	
+    }
+
+    .offer{
+
+
+    	width: 100%;
+    	height: 50px;
+    	background-color: lightblue;
+    	color: brown;
+    	font-size: 40px;
+    	font-family: sans-serif;
+    	bottom: 40px;
+    	margin-top: 20px;
+    	font-style: italic;
+     }
+      
+
+     
+     .down {
+     	width: 100%;
+     	height: 300px;
+     	background-color: rgb(3, 57, 78);
+     	color: white;
+     	border-radius: 5px;
+
+     	}
+
+     .down1{
+     	 width: 15%;
+     	height: 200px;
+     	padding-left: 60px;
+     	float: left;
+     	position: relative;
+     	left: 80px;
+     	top: 30px; 
+     	
+     }	
+     .down1,.col{
+      text-decoration: none;
+      color: white;
+
+     }
+     .down1,h3{
+     	color: rgb(240, 240, 141);
+     }
+     .downni{
+     	
+     	height: 50px;
+     	width: 100%;
+     	background-color: rgb(3, 57, 78);
+     	color: rgb(240, 240, 141);
+     	position: absolute;
+        margin-top: 220px;
+
+     }
+
+        .ni1{
+        	display: inline;
+        	padding-left: 90px;
+        	font-size: 25px;
+        	position: relative;
+        	top: 30px;
+		}   
+
+     	
+
+	
